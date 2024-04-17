@@ -2,7 +2,7 @@ package java.src.model_classes;
 
 import java.time.LocalDate;
 
-public class UserEmissions {
+public class UserEmission {
     // Attributes
     private Long emissionId;
     private Long userId;
@@ -12,17 +12,17 @@ public class UserEmissions {
     private LocalDate date;
 
     // Constructors
-    public UserEmissions() {
+    public UserEmission() {
     }
 
-    public UserEmissions(Long userId, Long activityId, Double quantity, Double emission, LocalDate date) {
+    public UserEmission(Long userId, Long activityId, Double quantity, Double emission, LocalDate date) {
         this.userId = userId;
         this.activityId = activityId;
         this.quantity = quantity;
         this.emission = emission;
         this.date = date;
     }
-    public UserEmissions(Long emissionId, Long userId, Long activityId, Double quantity, Double emission, LocalDate date) {
+    public UserEmission(Long emissionId, Long userId, Long activityId, Double quantity, Double emission, LocalDate date) {
         this.emissionId = emissionId;
         this.userId = userId;
         this.activityId = activityId;
